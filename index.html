@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Laerings Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="billeder/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HJEM</a></li>
+                    <li><a href="">OPGAVER</a></li>
+                    <li><a href="">OM OS</a></li>
+                    <li><a href="">KONTAKT</a></li>
+                </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+    <div class="text-box">
+        <h1>Vikar Opgave Portalen</h1>
+        <p>Det har aldrig været nemmere at finde opgaver til undervisningen.</p>
+        <a href="" class="hero-btn">Find opgaver nu</a>
+    </div>
+
+ </section>
+
+
+
+ <!-- Nyeste Opgaver --->
+ <section class="OpgaveHeader">
+    <h1>Nyeste Opgaver</h1>
+ </section>
+ <section class="NyesteOpgaver">
+    
+    <a href="opgaver/Engelsk-Verbs-1.pdf" target="_blank" download>
+        <embed src="opgaver/Engelsk-Verbs-1.pdf" alt="PDF-ikon" width="200" height="282">
+        <h3> Download PDF</h3>
+      </a>
+      
+      <a href="opgaver/Dansk-grammatik-2.-3.-klasse.pdf" target="_blank" download>
+        <embed src="opgaver/Dansk-grammatik-2.-3.-klasse.pdf" alt="PDF-ikon" width="200" height="282">
+        <h3> Download PDF</h3>
+      </a>
+
+      <a href="opgaver/Matematik-3.-klasse-musik-og-dans.pdf" target="_blank" download>
+        <embed src="opgaver/Matematik-3.-klasse-musik-og-dans.pdf" alt="PDF-ikon" width="200" height="282">
+        <h3> Download PDF</h3>
+      </a>
+     
+      <a href="opgaver/PrikOpgave.pdf" target="_blank" download>
+        <embed src="opgaver/PrikOpgave.pdf" alt="PDF-ikon" width="200" height="282">
+        <h3> Download PDF</h3>
+      </a>
+
+ </section>
+
+
+<!-- OPGAVER --->
+
+<section class="opgaver">
+    <h1>Opgaver til alle fag</h1>
+    <p>Dette er blot nogle af de fantastiske opgaver du finder her på siden</p>
+
+    <div class="row">
+        <div class ="opgaver-col">
+           <h3>Dansk</h3> 
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class ="opgaver-col">
+            <h3>Matematik</h3> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+             nisi ut aliquip ex ea commodo consequat. </p>
+         </div>
+         <div class ="opgaver-col">
+            <h3>Engelsk</h3> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+             nisi ut aliquip ex ea commodo consequat. </p>
+         </div>
+    </div>
+ </section>
+
+
+
+ 
+ <!-- ikon facts --->
+<section class="ikonBanner">
+    <div class="ikonBannerImg">
+        <img src="billeder/ikonBanner.jpg" alt="ikon_banner_img">
+    </div>
+    <div class="linearGradientBG"></div>
+    
+</section>
+
+
+
+
+
+
+ <!-- om os --->
+
+ <section class="omos">
+    <h1>Teamet bag Vikar Opgaver</h1>
+    <p>Vi er to passionerede lærerstuderende, 
+        som brænder for at give vikarer gode opgaver til undervisningen.</p>
+
+    <div class="hold">
+        <div class="hold_deltager">
+            <div class="hold_img">
+                <img src="billeder/hold1.png" alt="hold_medlem_img">
+            </div>
+            <h3>Daniel Brandt</h3>
+            <p class="rolle">CEO & Udvikler</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor</p>
+        </div>
+        <div class="hold_deltager">
+            <div class="hold_img">
+                <img src="billeder/hold2.png" alt="hold_medlem_img">
+            </div>
+            <h3>Andreas Neubert</h3>
+            <p class="rolle">Musik mand</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor</p>
+        </div>
+        
+
+ </section>
+
+
+<!-- Kontakt -->
+<section>
+<div class="kontaktBox">
+   
+    <form target="_blank" action="https://formsubmit.co/64e4a2118eb56e2056006e63397ee091" method="POST">
+    
+  
+      <label for="name">Fornavn</label>
+      <input type="text" name="name" class="form-control" placeholder="Dit navn" required>
+
+      <label for="lname">Efternavn</label>
+      <input type="text" id="lname" name="Efternavn" placeholder="Dit efternavn..">
+
+      <label for="email">Email</label>
+      <input type="text" id="emal" name="Email" placeholder="Din email..">
+  
+    
+  
+      <label for="subject">Emne</label>
+      <textarea id="subject" name="Emne" placeholder="Skriv din besked her.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Send">
+  
+    </form>
+  </div>
+</section>
+
+    <!--Javascript for toggle-->
+    <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+
+    </script>
+
+
+
+ <!--Javascript for nyeste opgave
+ <script>
+ function nyOpgave1(){
+    <a href="/books/a-great-book.pdf" target="_blank">
+
+ }
+
+ </script>-->
+
+
+
+</body>
+</html>
